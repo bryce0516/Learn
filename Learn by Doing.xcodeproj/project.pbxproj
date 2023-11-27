@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5A771012B14C867009111A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A771002B14C867009111A2 /* CardView.swift */; };
+		B5A771032B14C8E8009111A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A771022B14C8E8009111A2 /* ContentView.swift */; };
 		B5F7117D2B0E221B002EFFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7117C2B0E221B002EFFB3 /* AppDelegate.swift */; };
 		B5F7117F2B0E221B002EFFB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7117E2B0E221B002EFFB3 /* SceneDelegate.swift */; };
 		B5F711812B0E221B002EFFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F711802B0E221B002EFFB3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5A771002B14C867009111A2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B5A771022B14C8E8009111A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5F711792B0E221B002EFFB3 /* Learn by Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn by Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F7117C2B0E221B002EFFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F7117E2B0E221B002EFFB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		B5F7117B2B0E221B002EFFB3 /* Learn by Doing */ = {
 			isa = PBXGroup;
 			children = (
+				B5A771002B14C867009111A2 /* CardView.swift */,
 				B5F7117C2B0E221B002EFFB3 /* AppDelegate.swift */,
 				B5F7117E2B0E221B002EFFB3 /* SceneDelegate.swift */,
 				B5F711802B0E221B002EFFB3 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				B5F711852B0E221D002EFFB3 /* Assets.xcassets */,
 				B5F711872B0E221D002EFFB3 /* LaunchScreen.storyboard */,
 				B5F7118A2B0E221D002EFFB3 /* Info.plist */,
+				B5A771022B14C8E8009111A2 /* ContentView.swift */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F711812B0E221B002EFFB3 /* ViewController.swift in Sources */,
+				B5A771032B14C8E8009111A2 /* ContentView.swift in Sources */,
 				B5F7117D2B0E221B002EFFB3 /* AppDelegate.swift in Sources */,
+				B5A771012B14C867009111A2 /* CardView.swift in Sources */,
 				B5F7117F2B0E221B002EFFB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
