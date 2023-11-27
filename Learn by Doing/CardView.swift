@@ -11,6 +11,8 @@ struct CardView: View {
   // MARK: - PROPERTIES
   var card: Card
   
+  @State private var fadeIn: Bool = false
+  
   var gradient: [Color] = [Color("Color01"), Color("Color02")]
   
   // MARK: - CARD
@@ -33,6 +35,7 @@ struct CardView: View {
       
       Button(action: {
         print("Button was tapped")
+        playSound(sound: "sound-chime", type: "mp3")
       }, label: {
         HStack {
           Text(card.callToAction.uppercased())
@@ -68,6 +71,11 @@ struct CardView: View {
     )
     .cornerRadius(16)
     .shadow(radius: 8)
+    .onAppear {
+      withAnimation(.linear(duration: 1.2)) {
+        self.fadeIn.toggle()
+      }
+    }
   }
 }
 
