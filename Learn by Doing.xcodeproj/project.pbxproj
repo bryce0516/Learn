@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B5A771012B14C867009111A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A771002B14C867009111A2 /* CardView.swift */; };
 		B5A771032B14C8E8009111A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A771022B14C8E8009111A2 /* ContentView.swift */; };
+		B5A771052B14CD85009111A2 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A771042B14CD85009111A2 /* CardModel.swift */; };
+		B5A771072B14CE02009111A2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A771062B14CE02009111A2 /* CardData.swift */; };
+		B5A771092B14D030009111A2 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A771082B14D030009111A2 /* sound-chime.mp3 */; };
 		B5F7117D2B0E221B002EFFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7117C2B0E221B002EFFB3 /* AppDelegate.swift */; };
 		B5F7117F2B0E221B002EFFB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7117E2B0E221B002EFFB3 /* SceneDelegate.swift */; };
 		B5F711812B0E221B002EFFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F711802B0E221B002EFFB3 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		B5A771002B14C867009111A2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B5A771022B14C8E8009111A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5A771042B14CD85009111A2 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		B5A771062B14CE02009111A2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		B5A771082B14D030009111A2 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
 		B5F711792B0E221B002EFFB3 /* Learn by Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn by Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F7117C2B0E221B002EFFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5F7117E2B0E221B002EFFB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				B5F711872B0E221D002EFFB3 /* LaunchScreen.storyboard */,
 				B5F7118A2B0E221D002EFFB3 /* Info.plist */,
 				B5A771022B14C8E8009111A2 /* ContentView.swift */,
+				B5A771042B14CD85009111A2 /* CardModel.swift */,
+				B5A771062B14CE02009111A2 /* CardData.swift */,
+				B5A771082B14D030009111A2 /* sound-chime.mp3 */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -132,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F711892B0E221D002EFFB3 /* LaunchScreen.storyboard in Resources */,
+				B5A771092B14D030009111A2 /* sound-chime.mp3 in Resources */,
 				B5F711862B0E221D002EFFB3 /* Assets.xcassets in Resources */,
 				B5F711842B0E221B002EFFB3 /* Main.storyboard in Resources */,
 			);
@@ -147,8 +157,10 @@
 				B5F711812B0E221B002EFFB3 /* ViewController.swift in Sources */,
 				B5A771032B14C8E8009111A2 /* ContentView.swift in Sources */,
 				B5F7117D2B0E221B002EFFB3 /* AppDelegate.swift in Sources */,
+				B5A771072B14CE02009111A2 /* CardData.swift in Sources */,
 				B5A771012B14C867009111A2 /* CardView.swift in Sources */,
 				B5F7117F2B0E221B002EFFB3 /* SceneDelegate.swift in Sources */,
+				B5A771052B14CD85009111A2 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

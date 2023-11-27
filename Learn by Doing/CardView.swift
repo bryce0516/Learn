@@ -9,21 +9,22 @@ import SwiftUI
 
 struct CardView: View {
   // MARK: - PROPERTIES
+  var card: Card
   
   var gradient: [Color] = [Color("Color01"), Color("Color02")]
   
   // MARK: - CARD
   var body: some View {
     ZStack {
-      Image("developer-no1")
+      Image(card.imageName)
       
       VStack {
-        Text("SwfitUI")
+        Text(card.title)
           .font(.largeTitle)
           .fontWeight(.heavy)
           .multilineTextAlignment(.center)
           .foregroundStyle(Color.white)
-        Text("Better apps. Less code.")
+        Text(card.headline)
           .fontWeight(.light)
           .foregroundColor(Color.white)
           .italic()
@@ -34,7 +35,7 @@ struct CardView: View {
         print("Button was tapped")
       }, label: {
         HStack {
-          Text("Learn".uppercased())
+          Text(card.callToAction.uppercased())
             .fontWeight(.heavy)
             .foregroundStyle(Color.white)
             .accentColor(Color.white)
@@ -48,7 +49,7 @@ struct CardView: View {
         .padding(.horizontal, 24)
         .background(
           LinearGradient(
-            gradient: Gradient(colors: gradient),
+            gradient: Gradient(colors: card.gradientColors),
             startPoint: .leading,
             endPoint: .trailing)
         )
@@ -60,8 +61,8 @@ struct CardView: View {
     .frame(width: 335, height: 545)
     .background(
       LinearGradient(
-        gradient: Gradient(colors: gradient), 
-        startPoint: .topLeading, 
+        gradient: Gradient(colors: card.gradientColors),
+        startPoint: .topLeading,
         endPoint: .bottom
       )
     )
@@ -71,6 +72,8 @@ struct CardView: View {
 }
 
 #Preview {
-  CardView()
-    .previewLayout(.sizeThatFits)
+  CardView(
+    card: cardData[0]
+  )
+  .previewLayout(.sizeThatFits)
 }
